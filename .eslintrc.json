@@ -21,6 +21,8 @@
     },
     "plugins": ["react", "@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
     "rules": {
+        "react/no-unescaped-entities": "off",
+        "react/function-component-definition": "off",
         "react/require-default-props": "off",
         "react/jsx-no-useless-fragment": "off",
         "no-param-reassign": "off",
